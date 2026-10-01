@@ -1,0 +1,75 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      fontFamily: {
+        serif: ["'Cinzel'", "'Playfair Display'", "Georgia", "serif"],
+        display: ["'Cinzel'", "'Playfair Display'", "Georgia", "serif"],
+        sans: ["'Plus Jakarta Sans'", "Inter", "ui-sans-serif", "system-ui", "-apple-system", "sans-serif"],
+      },
+      colors: {
+        parchment: {
+          50:  "#FCFBF9",
+          100: "#FAF8F5",
+          200: "#F3EFEA",
+          300: "#EBE6DC",
+          400: "#E0D8CA",
+          500: "#D3C8B7",
+        },
+        bronze: {
+          50:  "#F7F5F3",
+          100: "#EFEBE7",
+          200: "#D8CFCA",
+          300: "#B5A79E",
+          400: "#8C796E",
+          500: "#5C4A3C",
+          600: "#4A3B30",
+          700: "#3D3027",
+          800: "#2C241D",
+          900: "#1C1612",
+        },
+        gold: {
+          50:  "#FAF7EE",
+          100: "#F3EDD7",
+          200: "#E6D7AD",
+          300: "#D6BF80",
+          400: "#C4A254",
+          500: "#A38342",
+          600: "#876B32",
+          700: "#6B5424",
+          800: "#4F3D1A",
+          900: "#362911",
+        },
+        azure: {
+          50:  "#F0F6FA",
+          100: "#E1EDF5",
+          200: "#BED8EA",
+          300: "#94BEDC",
+          400: "#5D9BCA",
+          500: "#2A6B96",
+          600: "#1F567A",
+          700: "#17425E",
+          800: "#102F44",
+          900: "#0B202F",
+        },
+        stoneborder: "#E3DDD3",
+      },
+      borderRadius: {
+        "2xl": "1rem",
+        "3xl": "1.5rem",
+      },
+      boxShadow: {
+        sm: "0 1px 2px 0 rgb(44 36 29 / 0.05)",
+        md: "0 4px 16px -2px rgb(44 36 29 / 0.08), 0 2px 6px -2px rgb(44 36 29 / 0.04)",
+        lg: "0 12px 32px -4px rgb(44 36 29 / 0.12), 0 4px 12px -4px rgb(44 36 29 / 0.06)",
+        bespoke: "0 20px 40px -10px rgb(28 22 18 / 0.15), 0 0 0 1px rgb(227 221 211 / 0.8)",
+        goldglow: "0 0 0 3px rgb(163 131 66 / 0.25)",
+      },
+    },
+  },
+  plugins: [],
+};

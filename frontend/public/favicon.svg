@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Outer Seal Background -->
+  <rect width="64" height="64" rx="14" fill="#2C241D" />
+  <rect x="3" y="3" width="58" height="58" rx="11" stroke="#A38342" stroke-width="1.5" stroke-opacity="0.6" fill="none" />
+  
+  <!-- Classical Arch Structure -->
+  <path d="M 18 48 V 24 C 18 16.268 24.268 10 32 10 C 39.732 10 46 16.268 46 24 V 48" stroke="#E3DDD3" stroke-width="2" stroke-linecap="round" fill="none" stroke-opacity="0.4" />
+  
+  <!-- Scales of Justice (Gold Accent) -->
+  <!-- Center Pillar -->
+  <path d="M 32 16 V 46" stroke="#A38342" stroke-width="2.5" stroke-linecap="round" />
+  <!-- Pillar Base -->
+  <path d="M 24 46 H 40" stroke="#A38342" stroke-width="2.5" stroke-linecap="round" />
+  <!-- Balance Beam -->
+  <path d="M 18 24 H 46" stroke="#A38342" stroke-width="2.5" stroke-linecap="round" />
+  <!-- Left Pan Strings & Pan -->
+  <path d="M 18 24 L 14 34 H 22 L 18 24 Z" fill="#B8964C" stroke="#A38342" stroke-width="1.2" stroke-linejoin="round" />
+  <path d="M 12 34 Q 18 38 24 34" stroke="#A38342" stroke-width="1.5" fill="none" />
+  <!-- Right Pan Strings & Pan -->
+  <path d="M 46 24 L 42 34 H 50 L 46 24 Z" fill="#B8964C" stroke="#A38342" stroke-width="1.2" stroke-linejoin="round" />
+  <path d="M 40 34 Q 46 38 52 34" stroke="#A38342" stroke-width="1.5" fill="none" />
+  
+  <!-- Top Finial -->
+  <circle cx="32" cy="14" r="2.5" fill="#B8964C" />
+</svg>

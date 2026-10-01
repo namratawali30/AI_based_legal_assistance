@@ -1,0 +1,35 @@
+# Environments & Secrets
+.env
+.env.*
+!.env.example
+!.env.production.template
+!.env.staging.template
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+uploads/
+*.sqlite3
+
+# Node & Frontend
+node_modules/
+dist/
+dist-ssr/
+frontend/node_modules/
+frontend/dist/
+frontend/playwright-report/
+frontend/test-results/
+
+# Editor & OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.log
